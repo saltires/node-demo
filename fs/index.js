@@ -1,5 +1,14 @@
 const fs = require('fs')
 
+// 读取文件
+fs.readFile('./message.txt', function(err, fileContent) {
+    if (err) {
+        throw err
+    }
+    console.log(fileContent)
+    console.log('mesStorage.txt 的内容：', fileContent.toString())
+})
+
 /**
  * fs 模块的写入文件 API
  * @param {string} -- 文件名称，文件名称所涉及的目录必须存在
