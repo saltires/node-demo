@@ -26,6 +26,9 @@ rd.on('readable', () => {
   console.log('-------', rd._readableState.length)
 })
 
+setTimeout(() => {
+  console.log('-------', rd._readableState.length)
+}, 3000)
 /**
  * 
 0

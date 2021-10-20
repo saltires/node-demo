@@ -1,0 +1,16 @@
+{
+  "name": "practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.1自定义转换流.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^4.0.2",
+    "vinyl-fs": "^3.0.3"
+  }
+}
