@@ -21,4 +21,5 @@ vfs.src(
   console.log("chunk.cwd", chunk.cwd)
   console.log("chunk.base", chunk.base)
   console.log("chunk.path", chunk.path)
+  callback(null, chunk)
 }))
